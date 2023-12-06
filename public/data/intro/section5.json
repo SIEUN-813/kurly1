@@ -1,0 +1,21 @@
+{
+    "title": "",
+    "subTitle": "",
+    "titleOption": false, 
+    "animation": false,
+    "imageBanner": false,
+    "cols": 3,
+
+    "timeSales": {            
+        "timeSaleOption": true,
+        "timeSaleDate": "2023-10-18 18:00:00",
+        "timeHours": "24", 
+        "caption1": "일일특가",
+        "caption2": "",
+        "caption3": "망설이면 늦어요!"
+    },
+    
+    "product": [
+        {"번호": "INTRO_S05_001", "이미지":"slide1.jpg", "제품특징":"", "제조사":"", "제조일시":"2023-10-03 15:30:00", "판매처":"Kurly Only", "보관방법":"냉장", "배송":"샛별배송", "상품설명": "1구 당 판매가: 245원", "제품명": "[스킨푸드] 캐롯 카로틴 카밍 워터 패드 250g (60매)", "정가": 26000, "할인율": 0.38}
+    ]
+}

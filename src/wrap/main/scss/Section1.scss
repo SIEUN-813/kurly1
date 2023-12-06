@@ -1,0 +1,78 @@
+#section1 {
+    width: 100%;
+    .slide-container {
+        width: 100%;
+        position: relative;
+        cursor: pointer;
+        .slide-view {
+            width: 100%;
+            overflow: hidden;
+            .slide-wrap {
+                width: 100% * 24;
+                margin-left: -100%;
+                display: flex;
+                position: relative;
+                .slide {
+                    width: 100%;
+                    img {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+        .next-arrow-btn{
+            position: absolute;
+            z-index: 2;
+            right: 16%;
+            top: 50%;
+            width: 52px;
+            height: 52px;
+            margin-top: -26px;
+            background: url(../../../../public/images/intro/section1/icon_circle_bg_gray_arrow.svg) no-repeat 50% 50%;
+            background-size: 52px 52px;
+            border-radius: 50%;
+            color: #fff;
+            opacity: 0;
+            transition: all 0.6s ease-in-out;
+            &.on{
+                opacity: 1;
+            }
+        }
+        .prev-arrow-btn{
+            position: absolute;
+            z-index: 2;
+            left: 16%;
+            top: 50%;
+            width: 52px;
+            height: 52px;
+            margin-top: -26px;
+            background: url(../../../../public/images/intro/section1/icon_circle_bg_gray_arrow.svg) no-repeat 50% 50%;
+            background-size: 52px 52px;
+            transform: rotate(180deg);
+            border-radius: 50%;
+            color: #fff;
+            opacity: 0;
+            transition: all 0.6s ease-in-out;
+            &.on{
+                opacity: 1;
+            }
+        }
+        .page-num-box{
+            position: absolute;
+            z-index: 2;
+            right: 27%;
+            bottom: 20px;
+            padding: 0 10px 3px 10px;
+            background: rgba(0,0,0, 0.5);
+            border-radius: 8.5px;
+            em{
+                font-size: 14px;
+                color: #fff;
+            }
+            i{
+                color: #fff;
+                margin: 0 2px;
+            }
+        }
+    }
+}

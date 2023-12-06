@@ -1,0 +1,21 @@
+{
+    "title": "키엘",
+    "subTitle": "",
+    "titleOption": false, 
+    "animation": false,
+    "imageBanner": true,
+    "cols": 1,
+    
+    "timeSales": {            
+        "timeSaleOption": false,
+        "timeSaleDate": "2023-10-18 18:00:00",
+        "timeHours": "", 
+        "caption1": "",
+        "caption2": "",
+        "caption3": ""
+    },    
+
+    "product": [
+        {"번호":"INTRO_S06_001", "이미지":"banner.jpg", "제품특징":"", "제조사":"", "제조일시":"2023-10-03 15:30:00", "판매처":"Kurly Only", "보관방법":"냉장", "배송":"샛별배송", "제품명": "", "정가": 0, "할인율": 0}
+    ]
+}

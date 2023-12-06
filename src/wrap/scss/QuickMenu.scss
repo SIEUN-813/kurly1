@@ -1,0 +1,111 @@
+#quickMenu{
+    z-index: 2;
+    position: absolute;
+    right: 10px;
+    top: 700px;
+    width: 80px;
+    user-select: none;
+    background: #fff;
+    &.on{
+        position: fixed;
+        top: 31%;       
+    }
+    > ul{
+        > li{
+            width: 100%;
+            &:nth-child(1){
+                a{  
+                    display: block;
+                    width: 100%;
+                    img{
+                        width: 100%;
+                    }
+                }
+            }
+            &:nth-child(2){
+                padding: 10px 0;
+                ul{
+                    li{
+                        a{
+                            display: flex;
+                            width: 100%;
+                            height: 30px;
+                            border: 1px solid #ccc;
+                            border-bottom: 0;
+                            justify-content: center;
+                            align-items: center;
+                            font-size: 12px;
+                            font-weight: 500;
+                            color: #333;
+                        } 
+                        &:last-child{
+                            a{
+                                border-bottom: 1px solid #ddd;
+                            } 
+                        }
+                    }
+                }
+            }
+            &:nth-child(3){
+                border: 1px solid #ddd;
+                > ul{
+                    width: 100%;
+                    > li{
+                        width: 100%;
+                        &:nth-child(1){
+                            button{
+                                width: 100%;
+                                height: 22px;
+                                border: 0;
+                                background: #fff url(../../../public/images/quickMenu/icon_arrow.svg) no-repeat 50% 50%;
+                                cursor: pointer;
+                                background-size: 18px 18px;
+                            }
+                        }
+                        &:nth-child(2){
+                            padding: 3px 0 8px 0;
+                            h2{
+                                font-size: 12px;
+                                text-align: center;
+                            }
+                        }
+                        &:nth-child(3){
+                            padding: 0 4px;
+                            height: auto;
+                            max-height: 272px;
+                            overflow: hidden;
+                            background: #fff;
+                            ul {
+                                width: 100%;
+                                li{
+                                    width: 100%;
+                                    padding: 2px 0;
+                                    a{
+                                        display: block;
+                                        width: 100%;
+                                        img{
+                                            width: 100%;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        &:nth-child(4){
+                            padding: 3px 0 0 0;
+                            button{
+                                width: 100%;
+                                height: 22px;
+                                border: 0;
+                                background: #fff;
+                                background: #fff url(../../../public/images/quickMenu/icon_arrow.svg) no-repeat 50% 50%;
+                                transform: rotate(180deg);
+                                cursor: pointer;
+                                background-size: 18px 18px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
